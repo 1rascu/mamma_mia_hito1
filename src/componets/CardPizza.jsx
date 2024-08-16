@@ -22,7 +22,7 @@ function CardPizza({ name, price, ingredients, imagen }) {
                 <p className='ingredientes-texto'>🍕 {ingredientsList}</p>
             </ListGroup.Item>
         </div>
-
+  
         <div className='precio'>
             <ListGroup.Item>
                 <p>Precio: {formattedPrice}</p>
