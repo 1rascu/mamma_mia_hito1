@@ -1,0 +1,108 @@
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  margin-bottom: 10px 0;
+  z-index: 1000;
+}
+
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+  }
+  
+.custom-navbar button {
+    margin-left: 10px;
+  }
+  
+  .custom-header {
+    margin-top: 56px;
+    position: relative;
+    background-image: url('./assets/img/Header.jpg');
+    background-size: cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .custom-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .custom-header h1 , .custom-header p {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .custom-header p {
+    font-weight: 600;
+  }
+  
+  .line-header {
+    width: 60%;
+    margin: 0.5rem auto;
+    border-bottom: 1px solid white;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    margin-bottom: 1rem;
+    margin: 25px 0 25px 0;
+    justify-content: center;
+  }
+  
+  .ingredientes {
+    text-align: center;
+  }
+  
+  .ingredientes-titulo {
+    font-size: 1.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+  }
+  .ingredientes .ingredientes-texto {
+    padding: 0;
+    margin: 2px;
+  }
+  
+  .vermas-anadir {
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+  }
+  
+  .footer {
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(33, 37, 41);
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+    justify-content: center;
+  }
+
+  .precio {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
